@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centro de Ayuda - Blockbuster</title>
+    <meta name="description" content="Centro de ayuda de Blockbuster con información detallada sobre nuestros servicios, planes y políticas." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./assets/img/logo/BDS.webp" alt="Blockbuster Logo" class="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalogo.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="ayuda.html">Ayuda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Help Center Header -->
+      <section class="help-header py-5 bg-primary text-white">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1 class="display-4 mb-4">Centro de Ayuda Blockbuster</h1>
+              <p class="lead mb-4">Todo lo que necesitas saber sobre nuestros servicios y membresías</p>
+              <div class="search-box">
+                <input type="text" class="form-control form-control-lg" placeholder="Buscar en el centro de ayuda...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Links -->
+      <section class="quick-links py-4 bg-light">
+        <div class="container">
+          <div class="row g-3 text-center">
+            <div class="col-md-3">
+              <a href="#membresias" class="text-decoration-none">
+                <div class="p-3 bg-white rounded shadow-sm">
+                  <h5 class="mb-0">Membresías</h5>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#alquiler" class="text-decoration-none">
+                <div class="p-3 bg-white rounded shadow-sm">
+                  <h5 class="mb-0">Alquiler</h5>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#dispositivos" class="text-decoration-none">
+                <div class="p-3 bg-white rounded shadow-sm">
+                  <h5 class="mb-0">Dispositivos</h5>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#facturacion" class="text-decoration-none">
+                <div class="p-3 bg-white rounded shadow-sm">
+                  <h5 class="mb-0">Facturación</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Detailed Information Sections -->
+      <section class="detailed-info py-5">
+        <div class="container">
+          <!-- Membresías Section -->
+          <div id="membresias" class="info-section mb-5" data-aos="fade-up">
+            <h2 class="mb-4">Membresías y Planes</h2>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h3 class="h5 mb-3">Plan Básico - $9.99/mes</h3>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">• Acceso al catálogo básico</li>
+                      <li class="mb-2">• Calidad HD</li>
+                      <li class="mb-2">• 1 dispositivo a la vez</li>
+                      <li class="mb-2">• Sin publicidad</li>
+                      <li class="mb-2">• Cancelación en cualquier momento</li>
+                    </ul>
+                    <p class="mt-3 text-muted">Ideal para usuarios individuales que buscan una experiencia básica de streaming.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100 border-primary">
+                  <div class="card-body">
+                    <h3 class="h5 mb-3">Plan Premium - $14.99/mes</h3>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">• Catálogo completo</li>
+                      <li class="mb-2">• Calidad HD y Full HD</li>
+                      <li class="mb-2">• 3 dispositivos simultáneos</li>
+                      <li class="mb-2">• Descargas disponibles</li>
+                      <li class="mb-2">• Contenido exclusivo</li>
+                    </ul>
+                    <p class="mt-3 text-muted">Perfecto para familias pequeñas o compartir con amigos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h3 class="h5 mb-3">Plan Ultimate - $19.99/mes</h3>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">• Catálogo completo + estrenos</li>
+                      <li class="mb-2">• Calidad 4K + HDR</li>
+                      <li class="mb-2">• 5 dispositivos simultáneos</li>
+                      <li class="mb-2">• Descargas ilimitadas</li>
+                      <li class="mb-2">• Acceso anticipado</li>
+                    </ul>
+                    <p class="mt-3 text-muted">La mejor experiencia para verdaderos amantes del cine.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alquiler Section -->
+          <div id="alquiler" class="info-section mb-5" data-aos="fade-up">
+            <h2 class="mb-4">Sistema de Alquiler</h2>
+            <div class="card">
+              <div class="card-body">
+                <h3 class="h5 mb-3">¿Cómo funciona el alquiler?</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4 class="h6 mb-3">Proceso de Alquiler</h4>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">1. Selecciona la película que deseas ver</li>
+                      <li class="mb-2">2. Elige entre alquiler (48h) o compra permanente</li>
+                      <li class="mb-2">3. Realiza el pago seguro</li>
+                      <li class="mb-2">4. ¡Disfruta de tu película!</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class="h6 mb-3">Políticas de Alquiler</h4>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">• 48 horas desde la primera reproducción</li>
+                      <li class="mb-2">• Visualización ilimitada durante el período</li>
+                      <li class="mb-2">• Disponible en todos tus dispositivos</li>
+                      <li class="mb-2">• Calidad según tu plan de membresía</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dispositivos Section -->
+          <div id="dispositivos" class="info-section mb-5" data-aos="fade-up">
+            <h2 class="mb-4">Dispositivos Compatibles</h2>
+            <div class="card">
+              <div class="card-body">
+                <div class="row g-4">
+                  <div class="col-md-3">
+                    <h4 class="h6 mb-3">Smart TVs</h4>
+                    <ul class="list-unstyled">
+                      <li>• Samsung Smart TV</li>
+                      <li>• LG Smart TV</li>
+                      <li>• Android TV</li>
+                      <li>• Apple TV</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h4 class="h6 mb-3">Móviles y Tablets</h4>
+                    <ul class="list-unstyled">
+                      <li>• iOS (iPhone/iPad)</li>
+                      <li>• Android</li>
+                      <li>• Windows Mobile</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h4 class="h6 mb-3">Computadoras</h4>
+                    <ul class="list-unstyled">
+                      <li>• Windows PC</li>
+                      <li>• Mac</li>
+                      <li>• Navegadores web</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h4 class="h6 mb-3">Consolas</h4>
+                    <ul class="list-unstyled">
+                      <li>• PlayStation 4/5</li>
+                      <li>• Xbox One/Series</li>
+                      <li>• Nintendo Switch</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Facturación Section -->
+          <div id="facturacion" class="info-section" data-aos="fade-up">
+            <h2 class="mb-4">Facturación y Pagos</h2>
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4 class="h6 mb-3">Métodos de Pago Aceptados</h4>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">• Tarjetas de crédito/débito</li>
+                      <li class="mb-2">• PayPal</li>
+                      <li class="mb-2">• Transferencia bancaria</li>
+                      <li class="mb-2">• Gift cards Blockbuster</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class="h6 mb-3">Políticas de Facturación</h4>
+                    <ul class="list-unstyled">
+                      <li class="mb-2">• Facturación mensual automática</li>
+                      <li class="mb-2">• Sin contratos a largo plazo</li>
+                      <li class="mb-2">• Cancelación en cualquier momento</li>
+                      <li class="mb-2">• Reembolsos según política</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="mb-4">¿Necesitas más ayuda?</h2>
+              <p class="mb-5">Nuestro equipo de soporte está disponible 24/7 para ayudarte</p>
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Chat en Vivo</h5>
+                      <p class="card-text">Disponible 24/7</p>
+                      <button class="btn btn-primary">Iniciar Chat</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Email</h5>
+                      <p class="card-text">Respuesta en 24h</p>
+                      <a href="mailto:soporte@blockbuster.com" class="btn btn-primary">Enviar Email</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Teléfono</h5>
+                      <p class="card-text">Lun-Vie 9AM-6PM</p>
+                      <a href="tel:+1234567890" class="btn btn-primary">Llamar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Blockbuster</h5>
+            <p>Tu video club de confianza desde siempre.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Enlaces Rápidos</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="catalogo.html">Catálogo</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Síguenos</h5>
+            <div class="social-links">
+              <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col text-center">
+            <p>&copy; 2024 Blockbuster. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+      });
+    </script>
+  </body>
+</html>
